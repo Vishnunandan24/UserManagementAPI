@@ -58,7 +58,7 @@ public class UserRepositoryTest {
     }
     @Test
     void testUpdateUser(){
-        String newName = "kalyan babu";
+        String newName = "kalyanbabu";
         String newEmail = "babulakebabu@example.com";
         User user3 = new User("kalyani", "kalyani@example.com");
         user3.setName(newName);
